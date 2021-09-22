@@ -1,7 +1,7 @@
 clear          
 echo "                     ," 
 echo "                ,.  | \"
-echo "               |: \ | :\"
+echo "                : \   :\"
 echo "               :' ;\| ::\" 
 echo "                \ : | `::\"
 echo "                _)  |   `:`."
