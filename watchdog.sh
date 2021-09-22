@@ -1,0 +1,30 @@
+clear          
+echo -e "                     ," 
+echo -e "                ,.  | \"
+echo -e "               |: \ ; :\"
+echo -e "               :' ;\| ::\" 
+echo -e "                \ : | `::\"
+echo -e "                _)  |   `:`."
+echo -e "              ,' , `.    ;: ;"
+echo -e "            ,' ;:  ; '  ,:: |_ "
+echo -e "           /,   ` .    ;::: |:`-.__"
+echo -e "        _,' _o\  ,::.`:' ;  ;   . '"
+echo -e "    _,-'           `:.          ;""\," 
+echo -e " ,-'                     ,:         `-;," 
+echo -e " \,                       ;:           ;--._"
+echo -e "  `.______,-,----._     ,' ;:        ,/ ,  ,`" 
+echo -e "         / /,-';'  \     ; `:      ,'/,::.:::"
+echo -e "        ,',;-'-'_,--;    ;   :.   ,',',;::::::"
+echo -e "       ( /___,-'     `.     ;::,,'o/  ,:::::::" 
+echo -e "        `'             )    ;:,'o /  ; -   -::" 
+echo -e "                        \__ _,'o ,'         ,::" 
+echo -e "                         ) `--'       ,..::::"
+echo -e "                         ; `.        ,:::::::"
+echo -e "                         ;  ``::.    :::::::"
+echo "Enter Username:"
+read username
+echo "Enter Password:"
+read password
+echo "Enter IP address:"
+read ip
+sudo xfreerdp /u:$username /p:$password /v:$ip
