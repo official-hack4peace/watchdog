@@ -21,10 +21,10 @@ echo -e "                        \__ _,'o ,'         ,::"
 echo -e "                         ) `--'       ,..::::"
 echo -e "                         ; `.        ,:::::::"
 echo -e "                         ;  ``::.    :::::::"
-echo "Enter Username:"
+echo -e "Enter Username:"
 read username
-echo "Enter Password:"
+echo -e "Enter Password:"
 read password
-echo "Enter IP address:"
+echo -e "Enter IP address:"
 read ip
 sudo xfreerdp /u:$username /p:$password /v:$ip
