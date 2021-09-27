@@ -15,12 +15,7 @@ echo "  `.______,-,----._     ,   :        ,/ ,  ,`"
 echo "         / /,- ;   \       `:      , /,::.:::"
 echo "        , , ---__,--         :.   , , ,:::::::"
 echo "       / /___,-      `.      ::,,.o/  ,:::::::" 
-echo "        `              \    :, o /    -   -::" 
-echo "                        \__ _, o ,         ,::" 
-echo "                         \ `--'       ,..::::"
-echo "                           `.        ,:::::::"
-echo "                            ``::.    :::::::"
-echo "Enter Username:"
+echo "        `              \    :, o /    -   -:echo "Enter Username:"
 read username
 echo "Enter Password:"
 read password
